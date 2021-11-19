@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
         android:text="Escolha uma opção abaixo"
-        android:textColor="#70595959"
+        android:textColor="#A8A8A8"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

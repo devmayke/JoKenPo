@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(value == "pedra" && opcaoApp == 1 || value == "papel" && opcaoApp == 2 || value == "tesoura" && opcaoApp == 3){
+            resultado.setTextColor(Color.parseColor("#A8A8A8"));
             resultado.setText("Empate!");
         } else if(value == "pedra" && opcaoApp == 3 || value == "tesoura" && opcaoApp == 2 || value == "papel" && opcaoApp == 1 ){
             resultado.setTextColor(Color.parseColor("#B43B8C3E"));

@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
         android:text="Escolha uma opção abaixo"
-        android:textColor="#A6A6A6"
+        android:textColor="#70595959"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,4 +140,37 @@
         app:layout_constraintEnd_toStartOf="@+id/voce"
         app:layout_constraintStart_toEndOf="@+id/imagemResultado"
         app:layout_constraintTop_toTopOf="@+id/voce" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pedra"
+        android:textColor="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="@+id/pedra"
+        app:layout_constraintStart_toStartOf="@+id/pedra"
+        app:layout_constraintTop_toBottomOf="@+id/pedra" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Papel"
+        android:textColor="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="@+id/tesoura"
+        app:layout_constraintStart_toStartOf="@+id/tesoura"
+        app:layout_constraintTop_toBottomOf="@+id/tesoura" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tesoura"
+        android:textColor="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

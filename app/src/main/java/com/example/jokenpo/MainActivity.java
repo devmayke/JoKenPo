@@ -2,6 +2,7 @@ package com.example.jokenpo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -62,8 +63,10 @@ public class MainActivity extends AppCompatActivity {
         if(value == "pedra" && opcaoApp == 1 || value == "papel" && opcaoApp == 2 || value == "tesoura" && opcaoApp == 3){
             resultado.setText("Empate!");
         } else if(value == "pedra" && opcaoApp == 3 || value == "tesoura" && opcaoApp == 2 || value == "papel" && opcaoApp == 1 ){
+            resultado.setTextColor(Color.parseColor("#B43B8C3E"));
             resultado.setText("Você ganhou!");
         } else{
+            resultado.setTextColor(Color.parseColor("#9FBF1717"));
             resultado.setText("Você perdeu!");
         }
     }
